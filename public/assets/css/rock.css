@@ -1,0 +1,832 @@
+.rock_welcome_note {
+
+	width: 100%;
+
+	float: left;
+
+	text-align: center;
+
+	/*background: #000;*/
+
+	position: relative;
+
+	min-height: 450px;
+
+}
+
+.rock_welcome {
+
+	text-transform: uppercase;
+
+}
+
+/*---------------------welcome note end---------------------*/	
+
+/*---------------------Event of the month start---------------------*/	
+
+.rock_event {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+.rock_event .rock_event_tab {
+
+	float: left;
+
+	width: 15%;
+
+	border-right: 2px solid #f9b412;
+
+}
+
+.rock_event .rock_event_tab ul {
+	list-style: none;
+	padding-left: 0px;
+	margin: 0px auto;
+	background: #222;
+	color: #fff;
+}
+
+.rock_event .rock_event_tab ul li {
+	padding: 20px 0px;
+	border-bottom:1px solid #333; 
+}
+
+.rock_event .rock_event_tab ul li:hover {
+	background: #333;
+}
+
+.rock_event .rock_event_tab ul li:last-child {
+	border-bottom: none;
+}
+
+.rock_event .rock_event_tab ul li a {
+
+	color: #fff;
+	font-size:14px;
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_event .rock_event_tab ul li:hover a {
+
+	color: #f9b412;
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_event .rock_event_tab ul li a p {
+
+	margin: 0px;
+
+	/*color: #fff;*/
+
+}
+
+.rock_event .rock_event_tab ul li:hover a p {
+
+	color: inherit;
+
+}
+
+.rock_event .rock_event_tab ul li a.active p {
+
+	color: #f9b412;
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_event .rock_event_tab ul li a p.rock_event_date 
+{
+	display: inline-block;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	text-align: center;
+	padding: 0 15px;
+}
+
+.rock_event .rock_event_tab ul li a p.rock_event_month 
+{
+	display: inline-block;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	padding: 9px;
+	word-wrap: break-word;
+	font-weight: 100;
+	text-align: center;
+	position: relative;
+	left: 6px;
+}
+
+.rock_event .rock_event_tab ul li {
+
+	position: relative;
+
+}
+
+@media (min-width: 240px)  and (max-width: 499px){
+	.rock_event .rock_event_tab ul li a p.rock_event_date 
+	{
+		display: block;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		text-align: center!important;
+	}
+
+	.rock_event .rock_event_tab ul li a p.rock_event_month 
+	{
+		display:block;
+		font-size: 12px;
+		font-family: 'Roboto', sans-serif;
+		text-transform: uppercase;
+		font-weight: 100;
+		padding: 0;
+		font-weight: 100;
+		text-align: center;
+		position: relative;
+		left: 0;
+	}
+
+}
+
+
+.rock_event .rock_event_tab ul li a:hover:before {
+
+	border-left: 10px solid #f9b412;
+
+	border-bottom: 10px solid transparent;
+
+	border-top: 10px solid transparent;
+
+	top: 50%;
+
+	margin-top: -10px;
+
+	left: 100%;
+
+	z-index: 100;
+
+	content: '';
+
+	position: absolute;
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_event .rock_event_tab ul li a.active:before {
+
+	border-left: 10px solid #f9b412;
+
+	border-bottom: 10px solid transparent;
+
+	border-top: 10px solid transparent;
+
+	top: 50%;
+
+	margin-top: -10px;
+
+	left: 100%;
+
+	content: '';
+
+	position: absolute;
+
+	z-index: 100;
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_event .rock_event_tab_content_main {
+	width: 85%;
+	float: left;
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content {
+
+	/*background: #080808;*/
+
+	width: 100%;
+
+	float: left;
+
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content img {
+	width: 100%;
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail {
+
+	padding: 0px;
+
+	text-align: left;
+
+	-webkit-animation-delay: 0.2s;
+
+	-moz-animation-delay: 0.2s;
+
+	-ms-animation-delay: 0.2s;
+
+	-o-animation-delay: 0.2s;
+
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h1 {
+	color: #f9b412;
+	font-size: 35px;
+	text-transform: uppercase;
+	margin-top: -1px;
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h4 {
+
+	text-transform: uppercase;
+	color: #f9b412;
+
+}
+
+#tab-text 
+{
+	margin-top: -10px;
+	padding: 0px;
+}
+
+/*---------------------Event of the month end---------------------*/	
+
+/*---------------------Rockon Club Photos start---------------------*/	
+
+.rock_club_photo {
+
+	width: 100%;
+
+	float: left;
+
+}
+
+.rock_club_photo_slider_item .rock_club_photo_item {
+
+	position: relative;
+
+	overflow: hidden;
+
+}
+
+.rock_club_photo_slider_item .rock_club_photo_item img {
+
+	width: 100%;
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_club_photo_slider_item .rock_club_photo_item:hover img {
+
+	-webkit-transform: scale(1.05, 1.05);
+
+	-moz-transform: scale(1.05, 1.05);
+
+	-ms-transform: scale(1.05, 1.05);
+
+	-o-transform: scale(1.05, 1.05);
+
+	-webkit-transition: all 0.5s;
+
+	-moz-transition: all 0.5s;
+
+	-ms-transition: all 0.5s;
+
+	-o-transition: all 0.5s;
+
+}
+
+.rock_club_photo_slider_item .rock_club_photo_item .rock_club_photo_overlay {
+
+	position: absolute;
+
+	top: 0;
+
+	left: 0;
+
+	width: 100%;
+
+	height: 100%;
+
+	background: rgba(13, 13, 13, 0.79);
+
+	display: none;
+
+	-webkit-animation: blogcategory_image_overlay 0.5s;
+
+	-moz-animation: blogcategory_image_overlay 0.5s;
+
+	-ms-animation: blogcategory_image_overlay 0.5s;
+
+	-o-animation: blogcategory_image_overlay 0.5s;
+
+}
+
+.rock_club_photo_overlay .photo_link {
+
+	margin-left: -54px;
+
+}
+
+.photo_link {
+
+	position: absolute;
+
+	top: 40%;
+
+	left: 50%;
+
+	margin-left: -25px;
+
+	margin-top: -25px;
+
+}
+
+.photo_link a {
+
+	display: inline-block;
+
+	width: 40px;
+
+	height: 40px;
+
+	color: #fff;
+
+	margin-left: 10px;
+
+	line-height: 35px;
+
+	text-align: center;
+
+	border: 2px solid #fff;
+
+	cursor: pointer;
+
+	border-radius: 50%;
+
+	-webkit-transform: scale(1);
+
+	-moz-transform: scale(1);
+
+	-ms-transform: scale(1);
+
+	-o-transform: scale(1);
+
+	-webkit-transition: all 0.2s;
+
+	-moz-transition: all 0.2s;
+
+	-ms-transition: all 0.2s;
+
+	-o-transition: all 0.2s;
+
+}
+
+.photo_link a:hover {
+
+	color: #f9b412;
+
+	border-color: #f9b412;
+
+	-webkit-transform: scale(1.1);
+
+	-moz-transform: scale(1.1);
+
+	-ms-transform: scale(1.1);
+
+	-o-transform: scale(1.1);
+
+	-webkit-transition: all 0.2s;
+
+	-moz-transition: all 0.2s;
+
+	-ms-transition: all 0.2s;
+
+	-o-transition: all 0.2s;
+
+}
+
+.photo_link a:hover i {
+
+	color: #f9b412;
+
+}
+
+.rock_club_photo_detail {
+
+	position: absolute;
+
+	bottom: 0;
+
+	left: 0;
+
+	color: #fff;
+
+	background: rgba(0, 255, 204, 0.79);
+
+	padding: 20px 0px;
+
+	width: 100%;
+
+}
+
+.rock_club_photo_detail:hover {
+
+	color: #fff;
+
+}
+
+.rock_slider_button {
+
+	margin: 10px auto;
+
+	display: inline-block;
+
+	width: 35px;
+
+	height: 35px;
+
+	line-height: 30px;
+
+	text-align: center;
+
+	border: 2px solid #fff;
+
+	color: #fff;
+
+	font-size: 20px;
+
+	cursor: pointer;
+
+	border-radius: 50%;
+
+	-webkit-transform: scale(1);
+
+	-moz-transform: scale(1);
+
+	-ms-transform: scale(1);
+
+	-o-transform: scale(1);
+
+	-webkit-transition: all 0.2s;
+
+	-moz-transition: all 0.2s;
+
+	-ms-transition: all 0.2s;
+
+	-o-transition: all 0.2s;
+
+}
+
+.rock_slider_button:hover {
+
+	border-color: #f9b412;
+
+	-webkit-transform: scale(1.1);
+
+	-moz-transform: scale(1.1);
+
+	-ms-transform: scale(1.1);
+
+	-o-transform: scale(1.1);
+
+	-webkit-transition: all 0.2s;
+
+	-moz-transition: all 0.2s;
+
+	-ms-transition: all 0.2s;
+
+	-o-transition: all 0.2s;
+
+}
+
+/*---------------------Rockon Club Photos end---------------------*/	
+
+
+
+
+
+/*---------------------Rockon  Club Track start---------------------*/	
+
+.rock_club_track_main {
+
+	position: relative;
+
+}
+
+.rock_club_track {
+
+	position: absolute;
+
+	top: 50%;
+
+	left: 0px;
+
+	background: #0d0d0d;
+
+	width: 100%;
+
+}
+
+.rock_club_track_div .col-lg-8 {
+
+	background: #080808;
+
+}
+
+
+
+/*Player css*/
+
+.rock_audio_player {
+
+	margin: 15px 0px;
+
+	background: #1f1f1f;
+
+}
+
+.rock_audio_player .rock_audio_player_title {
+
+	padding: 10px;
+
+	text-align: left;
+
+}
+
+.rock_audio_player .rock_audio_player_title .track_artist {
+
+	color: #f9b412;
+
+	font-size: 18px;
+
+}
+
+.rock_audio_player .rock_audio_player_track_image {
+
+	position: relative;
+
+}
+
+.rock_audio_player .rock_audio_player_track_image img {
+
+	width: 100%;
+
+}
+
+.rock_audio_player .rock_audio_player_track_image .rock_audio_player_track_image_overlay {
+
+	position: absolute;
+
+	bottom: 0;
+
+	left: 0;
+
+	color: #fff;
+
+	background: rgba(0,0,0,0.5);
+
+	padding: 10px 0px;
+
+	width: 100%;
+
+	text-align: center;
+
+	display: none;
+
+}
+
+.rock_audio_player .mejs-container {
+
+	width: 100% !important;
+
+}
+
+.rock_audio_player .mejs-container .mejs-controls {
+
+	height: 70px !important;
+
+}
+
+.rock_audio_player .mejs-controls .mejs-play button {
+
+	top: 30px !important;
+
+	left: 10px !important;
+
+}
+
+.rock_audio_player .mejs-controls .mejs-button button {
+
+	top: 30px !important;
+
+	left: 10px !important;
+
+}
+
+.rock_audio_player .mejs-controls .mejs-volume-button {
+
+	position: absolute !important;
+
+	right: 80px !important;
+
+}
+
+.rock_audio_player .mejs-controls div.mejs-horizontal-volume-slider {
+
+	position: absolute !important;
+
+	top: 30px !important;
+
+	right: 10px !important;
+
+}
+
+
+
+/*---------------------Footer end---------------------*/	
+
+
+
+/*---------------------media css start---------------------*/
+
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+
+.activitiescol{margin-top:30px;}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content img {height:330px;}
+
+}
+
+@media (min-width:1024px){
+
+	.nextpf {line-height:2.5;}
+
+}
+
+
+@media screen and (max-width: 992px) {
+  .rock_event .rock_event_tab {
+		float: left;
+		width: 25%;
+		border-right: 2px solid #f9b412;
+	}
+
+	.rock_event .rock_event_tab_content_main {
+		width: 74%;
+		float: left;
+		padding: 10px;
+	}
+
+	.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h1
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (max-width: 768px) {
+  .rock_event .rock_event_tab {
+		float: left;
+		width: 35%;
+		border-right: 2px solid #f9b412;
+	}
+
+	.rock_event .rock_event_tab_content_main {
+		width: 64%;
+		float: left;
+		padding: 10px;
+	}
+
+	.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h1
+	{
+		font-size: 23px; 
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.rock_event .rock_event_tab {
+	float: left;
+	width: 33%;
+	border-right: 2px solid #f9b412;
+	}
+
+	.rock_event .rock_event_tab_content_main {
+		width: 66%;
+		float: left;
+		padding: 10px;
+	}
+
+	.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail h1
+	{
+		font-size: 23px; 
+	}
+}
+
+@media (min-width: 980px) and (max-width: 1200px) {
+
+.rock_menu ul li a {
+
+	padding: 22px 10px;
+
+}
+
+#rock_header {
+
+	top: 70%;
+
+}
+
+
+.rock_track_playlist ul li img {
+
+	width: 60px;
+
+	height: 60px;
+
+}
+
+.rock_vip_book a.btn {
+
+	margin-bottom: 20px;
+
+}
+
+.rock_event .rock_event_tab_content_main .rock_event_tab_content .rock_event_detail {
+
+	padding: 10px 25px 10px 20px;
+
+}
+
+.rock_blog_full_page .rock_padding_30 {
+
+	padding: 0px;
+
+}
+
+.rock_blog_full_page .rock_padding_30 > h3 {
+
+	margin-top: 0px;
+
+}
+
+.rock_comment img {
+
+	margin: 10px;
+
+}
+
+}
